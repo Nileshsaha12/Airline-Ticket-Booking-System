@@ -147,10 +147,10 @@ public class HomePage extends JFrame implements ActionListener{
             new UpdatePassenger().setVisible(true);
         }
         else if(cmd.equals("Book Flight")){
-         //   new BookFlight().setVisible(true);
+            new BookFlight().setVisible(true);
         }
         else if(cmd.equals("View Booked Flight")){
-         //   new ViewBookedFlight().setVisible(true);
+            new ViewBookedFlight().setVisible(true);
         }
         else if(cmd.equals("Journey Details")){
             new FlightJourney();
