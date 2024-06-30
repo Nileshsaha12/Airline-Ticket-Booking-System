@@ -29,14 +29,14 @@ public class ViewBookedFlight extends JFrame{
      while(rest.next()){
      y[i][j++]=rest.getString("tid");
      y[i][j++]=rest.getString("source");
-     y[i][j++]=rest.getString("username");
+     y[i][j++]=rest.getString("destination");
      y[i][j++]=rest.getString("class_name");
      y[i][j++]=rest.getString("price");
      y[i][j++]=rest.getString("fcode");
      y[i][j++]=rest.getString("fname");
      y[i][j++]=rest.getString("journey_date");
      y[i][j++]=rest.getString("journey_time");
-     y[i][j++]=rest.getString("destination");
+     y[i][j++]=rest.getString("username");
      y[i][j++]=rest.getString("name");
      y[i][j++]=rest.getString("status");
      i++;
