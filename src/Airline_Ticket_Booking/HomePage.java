@@ -156,16 +156,16 @@ public class HomePage extends JFrame implements ActionListener{
             new FlightJourney();
         }
         else if(cmd.equals("Flight Zone")){
-         //   new FlightZone().setVisible(true);
+            new FlightZone().setVisible(true);
         }
         else if(cmd.equals("Cancel Ticket")){
-          //  new CancelFlight().setVisible(true);
+            new CancelFlight().setVisible(true);
         }
         else if(cmd.equals("View Canceled Ticket")){
          //   new ViewCanceledTicket().setVisible(true);
         }
         else if(cmd.equals("Check Payment")){
-          //  new CheckPaymentDetails().setVisible(true);
+            new CheckPaymentDetails().setVisible(true);
         }
         else if(cmd.equals("Exit")){
             System.exit(0);
