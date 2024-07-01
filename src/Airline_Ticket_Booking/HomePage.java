@@ -162,7 +162,7 @@ public class HomePage extends JFrame implements ActionListener{
             new CancelFlight().setVisible(true);
         }
         else if(cmd.equals("View Canceled Ticket")){
-         //   new ViewCanceledTicket().setVisible(true);
+            new ViewCanceledTicket().setVisible(true);
         }
         else if(cmd.equals("Check Payment")){
             new CheckPaymentDetails().setVisible(true);
