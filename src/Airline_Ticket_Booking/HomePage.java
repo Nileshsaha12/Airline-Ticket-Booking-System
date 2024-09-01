@@ -16,7 +16,7 @@ public class HomePage extends JFrame implements ActionListener{
         f2=new Font("Gadi",Font.BOLD,35);
         f1=new Font("MS UI Gothic",Font.BOLD,15);
 
-        ImageIcon ic=new ImageIcon(ClassLoader.getSystemResource("Icons/img1.jpg"));
+        ImageIcon ic=new ImageIcon(ClassLoader.getSystemResource("Icons/img1.jpeg"));
         Image img=ic.getImage().getScaledInstance(1550,800,Image.SCALE_SMOOTH);
         ImageIcon ic1=new ImageIcon(img);
         l1=new JLabel(ic1);
